@@ -1,0 +1,30 @@
+#heading-container{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px 100px;
+    column-gap: 100px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.butts_delete{
+    background-color: rgb(223, 60, 20);
+    height: 35px;
+    width: 55px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.butts_add{
+    background-color: aquamarine;
+    height: 35px;
+    width: 55px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#todo_input,#todo_date{
+    height: 30px;
+    padding-left: 10px;
+}
